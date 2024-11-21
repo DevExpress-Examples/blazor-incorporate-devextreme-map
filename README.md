@@ -5,13 +5,15 @@
 <!-- default badges end -->
 # Blazor - Use DevExtreme Circular Gauge in a Blazor Application
 
-This example shows how you can embed [DevExtreme widgets](https://js.devexpress.com/Demos/WidgetsGallery/) into your Blazor application.
+This example shows how to embed [DevExtreme widgets](https://js.devexpress.com/Demos/WidgetsGallery/) into your Blazor application.
+
 
 ![Circular Gauge in DevExpress Blazor App](circularGauge.png)
 
 ## Implementation Details
 
-DevExtreme widgets require DevExtreme scripts and stylesheets. The DevExpress [Resource Manager](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager) automatically registers the DevExtreme script if your project includes the *DevExpress.Blazor* package. To add DevExtreme stylesheets, reference them in the *App.razor* file as follows:
+DevExtreme widgets require DevExtreme scripts and stylesheets. The DevExpress [Resource Manager](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxResourceManager) automatically registers the DevExtreme script if your project includes the *DevExpress.Blazor* package. To add DevExtreme stylesheets, reference them in the *App.razor* file:
+
 
 ```Razor
 <head>
